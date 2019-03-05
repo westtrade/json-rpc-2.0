@@ -1,0 +1,16 @@
+language: node_js
+sudo: false
+node_js:
+  - 10
+  - 9
+  - 8
+  - 7
+  - 6
+install:
+  - npm install
+  - npm install codecov -g
+script:
+  - npm test
+  - codecov -f coverage/*.json
+after_success:
+  - codecov
