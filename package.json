@@ -1,0 +1,18 @@
+{
+	"name": "@westtrade/json-rpc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/jest": "^24.0.9",
+		"jest": "^24.1.0",
+		"ts-jest": "^24.0.0",
+		"typescript": "^3.3.3333"
+	}
+}
